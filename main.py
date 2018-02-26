@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from zipfile import ZipFile
 from configparser import ConfigParser, ParsingError
