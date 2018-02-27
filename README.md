@@ -1,9 +1,9 @@
 # StellarisModExtractor
-Extract Paradox Interactive game _Stellaris_ mod files from Steam workshop to local mod directory.
+[中文说明](https://github.com/Lycreal/StellarisModExtractor/blob/master/README_cn.md)
+
+Extract Stellaris mod files subscribed from Steam workshop to local mod directory.
 
 May work for other Paradox games (e.g. hoi4), but not tested.
-
-[中文说明](https://github.com/Lycreal/StellarisModExtractor/blob/master/README_cn.md)
 
 ## Download
 
