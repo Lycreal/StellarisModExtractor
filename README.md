@@ -25,11 +25,11 @@ Use commandline or double-click or whatever to open it. No parameters needed.
 1. `run.exe`: generates config.ini file.
 
 2. Edit config.ini . For example:
-```INI
-[global]
-workshop = F:\SteamLibrary\steamapps\workshop\content\281990
-modpath = F:\SteamLibrary\steamapps\common\Stellaris\mod
-```
+    ```INI
+    [global]
+    workshop = F:\SteamLibrary\steamapps\workshop\content\281990
+    modpath = F:\SteamLibrary\steamapps\common\Stellaris\mod
+    ```
 
 3. `run.exe` again: load workshop.
 

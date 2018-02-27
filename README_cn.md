@@ -22,12 +22,12 @@ pyinstaller -F main.py
 ### 配置
 1. 运行`run.exe`: 生成config.ini文件.
 
-2. 编辑config.ini.如下:
-```INI
-[global]
-workshop = F:\SteamLibrary\steamapps\workshop\content\281990
-modpath = F:\SteamLibrary\steamapps\common\Stellaris\mod
-```
+2. 编辑config.ini如下（示例）:
+    ```INI
+    [global]
+    workshop = F:\SteamLibrary\steamapps\workshop\content\281990
+    modpath = F:\SteamLibrary\steamapps\common\Stellaris\mod
+    ```
 
 3. 再次运行`run.exe`: 读取创意工坊目录.
 
