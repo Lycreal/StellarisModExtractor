@@ -1,39 +1,37 @@
 # StellarisModExtractor
-Extract Paradox Interactive game _Stellaris_ mod files from Steam workshop to local mod directory.
+将从steam创意工坊订阅的Stellaris mod文件提取至本地mod文件夹
 
-May work for other Paradox games (e.g. hoi4), but not tested.
+可能适用于其他Paradox游戏（如hoi4），未测试
 
-[中文说明](https://github.com/Lycreal/StellarisModExtractor/blob/master/README_cn.md)
+## 下载
 
-## Download
-
-### Download from release page
-[release page](https://github.com/Lycreal/StellarisModExtractor/releases)
-### Build from source
+### 从发布页面下载
+[发布页面](https://github.com/Lycreal/StellarisModExtractor/releases)
+### 从源码构建
 ```Shell
 git clone https://github.com/Lycreal/StellarisModExtractor.git
 cd StellarisModExtractor
 pyinstaller -F main.py
 ```
-## Usage
+## 用法
 
-Put run.exe into any clean directory.
+将 run.exe 置于任何文件夹.
 
-Use commandline or double-click or whatever to open it. No parameters needed.
+使用任何方式运行程序（双击,命令行,etc），不需要参数。
 
-### Configuration
-1. `run.exe`: generates config.ini file.
+### 配置
+1. 运行`run.exe`: 生成config.ini文件.
 
-2. Edit config.ini . For example:
+2. 编辑config.ini.如下:
 ```INI
 [global]
 workshop = F:\SteamLibrary\steamapps\workshop\content\281990
 modpath = F:\SteamLibrary\steamapps\common\Stellaris\mod
 ```
 
-3. `run.exe` again: load workshop.
+3. 再次运行`run.exe`: 读取创意工坊目录.
 
-After these steps, you should get config.ini:
+经过以上步骤，应该得到config.ini如下:
 ```INI
 [mod]
 684509615\ui_overhaul_1080.zip = 0
@@ -44,16 +42,16 @@ workshop = F:\SteamLibrary\steamapps\workshop\content\281990
 modpath = F:\SteamLibrary\steamapps\common\Stellaris\mod
 ```
     
-### Work
+### 工作
 
-1. Edit config.ini .
+1. 编辑 config.ini .
     ```ini
     684509615\ui_overhaul_1080.zip = 1
     ```
 
-2. `run.exe`: Extract mod file to `modpath`.
+2. 运行`run.exe`: 提取mod文件至`modpath`.
     ```
-    result: mod
+      结果: mod
             │ ui_overhaul_1080.mod
             └─ui_overhaul_1080
                 │ descriptor.mod
